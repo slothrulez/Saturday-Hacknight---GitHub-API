@@ -11,7 +11,7 @@
 2. [Anshika Mariyam George](https://github.com/anshikageorge)
 3. [Britto Lionel Francis](https://github.com/britto18)
 ## Link to product walkthrough
-[link to video](Link Here)
+[walkthrough](https://youtu.be/zYDdMZ0uVAs)
 ## How it Works ?
 1. User Input: Users provide details through the web form, including the GitHub repository owner, repository name, and the path to the dependency file ('package.json' or 'requirements.txt').
 2. Data Retrieval: The application retrieves the specified file from the GitHub repository using the GitHub API.
