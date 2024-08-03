@@ -7,7 +7,7 @@
 # Dependency Visualizer
  The Dependency Visualizer is a web-based tool designed to help developers and teams understand the dependency structure of their GitHub repositories. By analyzing dependency files such as 'package.json' for Node.js projects or 'requirements.txt' for Python projects, the application generates a visual graph of dependencies, making it easier to grasp how different packages or modules interact within a project. This tool can be particularly useful for debugging, optimizing dependency management, or simply gaining a clearer understanding of a project's architecture.
 ## Team members
-1. [Anirudh Kannan]([https://github.com/TH-Activities/saturday-hack-night-template])
+1. [Anirudh Kannan](https://github.com/slothrulez)
 2. [Anshika Mariyam George](https://github.com/anshikageorge)
 3. [Britto Lionel Francis](https://github.com/britto18)
 ## Link to product walkthrough
