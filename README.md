@@ -30,7 +30,7 @@
 4. Activate the Virtual Environment:  ``` venv\Scripts\activate.bat ```
 5. Install Dependencies:  Install the required Python packages:  ``` pip install requests flask networkx matplotlib ```
 ## Important Note
-Update the `ACCESS_TOKEN` variable in `app.py` with your own GitHub access token. This is required to authenticate API requests to GitHub. Do not share this token publicly.
+Update the 'ACCESS_TOKEN' variable in 'app.py' with your own GitHub access token. This is required to authenticate API requests to GitHub. Do not share this token publicly.
     ```python
     ACCESS_TOKEN = 'your_github_access_token_here'
     ```
