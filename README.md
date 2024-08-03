@@ -4,19 +4,33 @@
 
 
 
-# Project Name
-Long Description about project. This project do that. This project is awesome...
+# Dependency Visualizer
+ The Dependency Visualizer is a web-based tool designed to help developers and teams understand the dependency structure of their GitHub repositories. By analyzing dependency files such as 'package.json' for Node.js projects or 'requirements.txt' for Python projects, the application generates a visual graph of dependencies, making it easier to grasp how different packages or modules interact within a project. This tool can be particularly useful for debugging, optimizing dependency management, or simply gaining a clearer understanding of a project's architecture.
 ## Team members
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
+1. [Anirudh Kannan]([https://github.com/TH-Activities/saturday-hack-night-template])
+2. [Anshika Mariyam George](https://github.com/anshikageorge)
+3. [Britto Lionel Francis](https://github.com/britto18)
 ## Link to product walkthrough
 [link to video](Link Here)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+1. User Input: Users provide details through the web form, including the GitHub repository owner, repository name, and the path to the dependency file ('package.json' or 'requirements.txt').
+2. Data Retrieval: The application retrieves the specified file from the GitHub repository using the GitHub API.
+3. Dependency Analysis: The contents of the dependency file are parsed to identify dependencies and their relationships.
+4. Graph Generation: A visual representation of the dependencies is created using 'networkx' and 'matplotlib', and is then displayed on the webpage.
+5. Visualization: The generated graph is shown as an image, allowing users to interact with and analyze their project's dependency structure.
 ## Libraries used
-Library Name - Version
+- requests - Version 2.32.3: For making HTTP requests to the GitHub API.
+- flask - Version 3.0.3: The web framework used for building the application.
+- networkx - Version 3.3: Used for creating and manipulating complex networks and graphs.
+- matplotlib - Version 3.9.1: For generating and rendering the dependency graph as an image.
 ## How to configure
-Instructions for setting up project
+1. Clone the Repository: Clone this repository to your local machine using the following command: git clone <repository-url>
+2. Navigate to Project Directory: Change into the project directory: cd <project-directory>
+3. Create a Virtual Environment: Set up a virtual environment to manage dependencies: python -m venv venv
+4. Activate the Virtual Environment: venv\Scripts\activate.bat
+5. Install Dependencies: Install the required Python packages: pip install requests flask networkx matplotlib
 ## How to Run
-Instructions for running
+1. Ensure Virtual Environment is Active: Make sure your virtual environment is activated.
+2. Start the Flask Application: Run the Flask app using the following command:'python app.py'
+3. Access the Application: Open a web browser and navigate to 'http://127.0.0.1:5000' to use the Dependency Visualizer.
+   
