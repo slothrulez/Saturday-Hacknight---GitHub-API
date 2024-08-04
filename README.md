@@ -30,7 +30,7 @@
     ```
 2. Navigate to Project Directory:  Change into the project directory:
     ```bash
-    cd <project-directory>
+       cd <project-directory>
     ```
 3. Create a Virtual Environment:  Set up a virtual environment to manage dependencies:
     ```bash
@@ -45,7 +45,7 @@
       pip install requests flask networkx matplotlib
   ```
 ## Important Note
-Update the 'ACCESS_TOKEN' variable in 'app.py' with your own GitHub access token. This is required to authenticate API requests to GitHub. Do not share this token publicly.
+Update the 'ACCESS_TOKEN' variable in 'app.py' with your own GitHub access token. This is required to authenticate API requests to GitHub.
  ```bash
     ACCESS_TOKEN = 'your_github_access_token_here'
  ```
