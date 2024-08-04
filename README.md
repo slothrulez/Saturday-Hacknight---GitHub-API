@@ -24,19 +24,37 @@
 - networkx - Version 3.3:  Used for creating and manipulating complex networks and graphs.
 - matplotlib - Version 3.9.1:  For generating and rendering the dependency graph as an image.
 ## How to configure
-1. Clone the Repository:  Clone this repository to your local machine using the following command:  ``` git clone <repository-url> ```
-2. Navigate to Project Directory:  Change into the project directory:  ``` cd <project-directory> ```
-3. Create a Virtual Environment:  Set up a virtual environment to manage dependencies:  ``` python -m venv venv ```
-4. Activate the Virtual Environment:  ``` venv\Scripts\activate.bat ```
-5. Install Dependencies:  Install the required Python packages:  ``` pip install requests flask networkx matplotlib ```
+1. Clone the Repository:  Clone this repository to your local machine using the following command:
+    ```bash
+        git clone <repository-url>
+    ```
+2. Navigate to Project Directory:  Change into the project directory:
+    ```bash
+    cd <project-directory>
+    ```
+3. Create a Virtual Environment:  Set up a virtual environment to manage dependencies:
+    ```bash
+        python -m venv venv
+    ```
+4. Activate the Virtual Environment:
+   ```bash
+       venv\Scripts\activate.bat
+   ```
+5. Install Dependencies:  Install the required Python packages:
+  ```bash
+      pip install requests flask networkx matplotlib
+  ```
 ## Important Note
 Update the 'ACCESS_TOKEN' variable in 'app.py' with your own GitHub access token. This is required to authenticate API requests to GitHub. Do not share this token publicly.
  ```bash
     ACCESS_TOKEN = 'your_github_access_token_here'
-```
+ ```
     
 ## How to Run
 1. Ensure Virtual Environment is Active:  Make sure your virtual environment is activated.
-2. Start the Flask Application:  Run the Flask app using the following command:  ```bash python app.py ```
+2. Start the Flask Application:  Run the Flask app using the following command:
+   ```bash
+        python app.py
+   ```
 3. Access the Application:  Open a web browser and navigate to 'http://127.0.0.1:5000' to use the Dependency Visualizer.
    
