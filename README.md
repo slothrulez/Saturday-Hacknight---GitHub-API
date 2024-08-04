@@ -31,11 +31,12 @@
 5. Install Dependencies:  Install the required Python packages:  ``` pip install requests flask networkx matplotlib ```
 ## Important Note
 Update the 'ACCESS_TOKEN' variable in 'app.py' with your own GitHub access token. This is required to authenticate API requests to GitHub. Do not share this token publicly.
-    ```bash
+ ```bash
     ACCESS_TOKEN = 'your_github_access_token_here'
+```
     
 ## How to Run
 1. Ensure Virtual Environment is Active:  Make sure your virtual environment is activated.
-2. Start the Flask Application:  Run the Flask app using the following command:  ```python app.py ```
+2. Start the Flask Application:  Run the Flask app using the following command:  ```bash python app.py ```
 3. Access the Application:  Open a web browser and navigate to 'http://127.0.0.1:5000' to use the Dependency Visualizer.
    
